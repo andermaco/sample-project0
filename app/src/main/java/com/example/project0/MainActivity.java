@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Disable butttons meanwhile Toast.LENGHT_SHORT is being shown.
+    // Show Toast message
     public void showToast(Button button) {
         button.setBackgroundColor(Color.RED);
         switch (button.getId()) {
